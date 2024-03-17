@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+nav {
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo img {
+    max-height: 65px;
+}
+
+.right-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.right-nav li {
+    display: inline;
+}
+
+.right-nav li a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+}
+
+.right-nav li a:hover {
+    background-color: yellow;
+    color: red;
+}
+
+.content {
+    text-align: center;
+    margin-top: 100px;
+    margin-left: -900px;
+}
+
+.content img {
+    width: 600px;
+    height: 400px;
+}
+
+.text {
+    flex: 1;
+    margin-left: 700px;
+    margin-top: -385px;
+    padding-right: 250px;
+    font-size: 250%;
+}
+
+.text p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.madimi-one-regular {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
